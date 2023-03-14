@@ -10,20 +10,65 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header><nav>
-        <ul id="menu">
+    <header>
+        <ul class="navigation">
             <li>
-                <a href="signup.html" class="active">Sign Up</a>
+                
+                <a href="index.html" class="active">Home</a>
             </li>
             <li>
                 <a href="classes.html">Classes</a>
             </li>
             
             <li>
-                <a href="index.html" >Home</a>
+                <a href="signup.html">Sign Up</a>
             </li>
         </ul>
-    </nav>
-</header>
+    </header>
+        <section class="signup-section">
+        <form method="POST" action="" class="signup-form">
+            <h2>Sign Up and Play!</h2>
+            <label for="cname">Child's Name</label>
+            <input id="cname" class="text-input" name="childs_name" type="text" required>
+            
+            <label for="pname">Parent Name</label>
+            <input id="pname" class="text-input" name="parent_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="text-input" name="email_address" required>
+            
+            <label for="gender">Boy</label>
+            <input type="radio" id="gender" name="gender" value="boy" required>
+            <label for="gender">Girl</label>
+            <input type="radio" id="gender" name="gender" value="girl" required>
+
+            <label for="mini">7-9 years old</label>
+            <input type="radio" id="mini" name="age" value="7-9" required>
+            <label for="middle">10-11 years old</label>
+            <input type="radio" id="middle" name="age" value="10-11" required>
+            <label for="youth">12-13 years old</label>
+            <input type="radio" id="youth" name="age" value="12-13" required>
+            
+            <input class="join-button" type="submit" value="Sign me up!">
+        </form>
+    </section>
+    <footer>
+        <ul class="social-media">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page(opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page(opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page(opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </ul>
+
+    </footer>
+
+    <!-- font awesome script -->
+
+    <script src="https://kit.fontawesome.com/ae41b1528e.js" crossorigin="anonymous"></script>
 </body>
 </html>
