@@ -50,11 +50,13 @@ section {
 
 h1 {
     font-family: Rubik, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
-    color:rgb(16, 69, 122);
+    color: beige;
+    background-color:rgb(16, 69, 122);
     margin-top: 10px;
     padding: 5px;
+    letter-spacing: 4px;
 }
 h2 {
     font-family: Lato, sans-serif;
@@ -89,7 +91,16 @@ footer {
     color: rgb(175, 50, 50);
 }
 
+/* classes page */
 
+.classes {
+    height: 600px;
+}
+
+h3 {
+    text-align: center;
+    padding: 5px;
+}
 
 /* sign-up form */
 
@@ -103,6 +114,7 @@ form {
     background-size: cover;
     overflow: hidden;
     width: 100%;
+    height: 600px;
 }
 
 .signup-form {
