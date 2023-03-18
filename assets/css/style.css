@@ -102,6 +102,23 @@ h3 {
     padding: 5px;
 }
 
+#blue {
+    background-color: rgb(16, 69, 122);
+    color: beige;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 100px;
+}
+#white {
+    background-color: beige;
+    color: rgb(16, 69, 122);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 100px;
+}
+
 /* sign-up form */
 
 form {
