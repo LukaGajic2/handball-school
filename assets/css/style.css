@@ -51,11 +51,16 @@ section {
     overflow: hidden;
     position: relative;
 }
+
+/*group-photo of girls in youth class*/
+
 #group-photo {
     height: 320px;
     width: 100%;
     background: url('../images/group-photo.jpg') no-repeat center center;
 }
+
+/* Club Name*/
 
 h1 {
     font-family: Rubik, sans-serif;
@@ -67,12 +72,14 @@ h1 {
     padding: 5px;
     letter-spacing: 4px;
 }
+
 h2 {
     font-family: Lato, sans-serif;
     text-align: center;
     margin-top: 10px;
     padding: 5px;
 }
+
 p {
     width: auto;
     text-align: center;
@@ -84,6 +91,8 @@ footer {
     height: 50px;
     margin-top: 20px;
 }
+
+/*social-media links*/
 
 .social-media {
     display: flex;
@@ -111,24 +120,39 @@ h3 {
     padding: 5px;
 }
 
-#blue {
+.blue {
     background-color: rgb(16, 69, 122);
     color: beige;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0 100px;
 }
-#white {
+.white {
     background-color: beige;
     color: rgb(16, 69, 122);
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0 100px;
 }
+#firstclass {
+    width: 75%;    
+}
+.silhouett {
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/silhouettsmall.jpg');
+}
+#middleclass {
+    width: 75%;    
+}
 
-/* sign-up form */
+#youthclass {
+    width: 75%;    
+}
+
+/* sign-up form with background picture */
 
 form {
     display: block;
@@ -153,6 +177,7 @@ form {
     left: 10%;
     padding: 30px;
 }
+
 .text-input {
     background: transparent;
     color: black;
@@ -162,10 +187,11 @@ form {
     border: 1px solid black;
     border-radius: 2px;
 }
- #gender {
+
+#gender {
     display: block;
     margin-bottom: 15px;
- }
+}
 
 input {
     text-align: start;
