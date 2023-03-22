@@ -111,10 +111,6 @@ footer {
 
 /* classes page */
 
-.classes {
-    height: 600px;
-}
-
 h3 {
     text-align: center;
     padding: 5px;
@@ -209,4 +205,24 @@ input {
 }
 label {
     color: rgb(16, 69, 122);
+}
+
+#welldone {
+    height: 500px;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 800px) {
+    .blue {
+        display: flex;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .white {
+        display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    }   
 }
