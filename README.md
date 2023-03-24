@@ -1,9 +1,11 @@
 # Stonehill Handball School
 
 
-Stonehill Handball School is handball club dedicated to children who would like to try play handball from the youngest recomended age. It offers training in three age classes where training and exercises are fitted to their age.
+Stonehill Handball School is handball club dedicated to children in age between 7-13 who would like to try play handball from the youngest recommended age. It offers training in three age classes where training and exercises are fitted to their age.
 
-Visitors will be able to get basic information about sport, where and what time trainigs are excersied and posibilty to sign-up to join the club and get more precis information about club and handball.
+Visitors will be able to get basic information about sport, where and what time trainings are excersized and possibilty to sign-up to join the club and get more precis information about club and handball.
+
+Colors I choose should represent Club colors(blue-white) and font is to relate to the sport character of site.
 
 ![Alt text](/assets/images/amiresponsive.png?raw=true "Am I Responsive")
 
@@ -61,7 +63,11 @@ Footer stretches throughout all website pages and offers links to schools social
     - no errors were returned when passing through official (Jigsaw) validator
 
 - accesibility
-    - I confirm that fonts and colors are easy to read and accessible by running through lighthouse in devtools.(overall result 96/100)
+    - I confirm that fonts and colors are easy to read and accessible by running through lighthouse in devtools.
+
+![Alt text](/assets/images/htmlvalidator.png?raw=true "HTML checker")
+![Alt text](/assets/images/cssvalidator.png?raw=true "CSS checker")
+![Alt text](/assets/images/lighthouse.png?raw=true "Lighthouse test")
 
 # Deployement
 
@@ -71,8 +77,8 @@ Footer stretches throughout all website pages and offers links to schools social
     - In Source drop menu choose "Deply from branch" and in Branch drop menu choose "main".
     - Once everything is selected the page will provide the link to completed site.
 
-
-https://lukagajic2.github.io/handball-school/
+- Link to completed site:
+    - https://lukagajic2.github.io/handball-school/
 
 # Credits
 
