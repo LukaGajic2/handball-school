@@ -222,7 +222,7 @@ label {
     }
     .white {
         display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
+        align-items: center;
+        flex-direction: column-reverse;
     }   
 }
